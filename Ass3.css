@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+body{
+    background-color: #F5F8fA;
+}
+
+.top-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.nav-list {
+    margin-top: 28px;   
+}
+ li {
+    display: inline;
+    padding-left: 20px;
+    color: black;
+}
+.btn {
+    border-radius: 10%;
+    border:1px solid;
+    padding: 10px; 
+}
+.pusher-logo {
+    width: 200px;
+    height: 39px;
+}
+.hr1 {
+    margin: 1rem 0 1rem 0;
+}
+section {
+    margin: auto;
+    padding-top: 2rem;
+}
+.panel {
+    display: flex; 
+    justify-content: center; 
+    background-color: #F5F8FA; 
+    margin: 0 auto;
+    border-radius: 0px, 6px, 6px, 0px;
+}
+/* styling panel rectangle */
+.panel-rectangle {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    box-shadow: -1px 4px 10px 1px grey;
+}
+ 
+.checkout {
+    padding: 30px;
+    margin-left: 10px;
+    font-family: lato;
+    font-size: 30px;
+    font-weight: 200;
+    color: #1D2C3C
+}
+
+/* styling basic information */
+.section-basic {
+    width: 580px;
+    height: 221px; 
+    margin-left: 48px;   
+}
+h2 {
+    font-size: 20px;
+    font-family: lato;
+    font-weight: 400;
+}
+hr {
+    display: none;
+}
+.container {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;  
+ }
+.imagerel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.names {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#first_name, 
+#last_name, 
+#email {
+    display: flex;
+    height: 36px;
+    margin-top: 10px;
+    width: 290px;
+    padding-left: 10px;
+}
+
+input {
+    display: flex;
+    background-color: #EDEFF2;
+    border: none;
+    width: 227px;
+    height: 40px;
+    /* border-radius: 5px; */
+ }
+ .Ename {
+    width: 370px;
+ }
+    
+input:focus{
+        outline: none;
+}
+/* styling payment information */
+.section-payment{
+    width: 580px;
+    height: 154px;
+    margin-left: 48px;
+}
+.container2 {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}   
+.details {
+    display: flex;
+    margin-top: .7rem;
+}
+.details .card-number {
+    height: 36px;
+    width: 27.5rem;
+    padding-left: 10px;
+}
+.card-date {
+    padding-right: 10px;
+    text-align: right;
+}
+.cvc {
+    width: 5rem;
+    padding-right: 10px;
+    text-align: right; 
+}
+input {
+    border: none;
+    background-color: #EDEFF2;
+    margin-top: 9px;
+} 
+.buy-button {
+    width: 35rem;
+    height: 52px;
+    color: white;
+    background-color: #038E7D;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.Support {
+    margin: 3rem;
+    display: flex;
+    gap: -0.0px;
+    justify-content: center;
+ }
+
+.ques-img {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: -1.4rem;
+    margin-right: -16px;
+}
+ .contact-support { 
+    position: relative;
+    margin-top: -44px;
+    font-size: 15px;
+    color: grey;
+    padding: 20px;
+    font-weight: 700;
+
+}
+.help {
+    color: black;
+}
+ a {
+    border-bottom: .1rem solid black;
+    color: grey;
+}
+.reason {
+    visibility: hidden;
+}
+
+/* .support img {
+    width: 1rem;
+    height: 1rem;
+}  */
+empty{
+    height: 2rem;
+}
+.power {
+    width: 92px;
+    height: 20px;
+    margin-left: 280px;
+    text-align: center;
+} 
+
+
+/******** styling of sidebar *********/
+.sidebar {
+    width: 316px;
+    background-color: #0f6ba9;
+    border-radius: 0px 6px 6px 0px;
+}
+.sidebar-content {
+    width: 231px;
+    height: 610px;
+    padding: 2rem;
+    margin-top: -0.5rem;
+}
+.free {
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 400;
+    color: white;
+    margin-top: 44px;
+    margin-bottom: 12px;
+    padding-left: 40px;
+}
+.price {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFFFFF;
+    padding-left:22px;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+.dollar {
+    font-size: 24px;
+    font-family: 700;
+    line-height: 28.8px;
+    font-family: Lato;
+    padding-left: 0.5rem;
+    margin-left: 8px;
+}
+.time {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Lato;
+}
+ .automate {
+    margin-top: -5rem;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: italic;
+    color: #FFFFFF;
+    padding-left: 35px;
+ }
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    font-family: Lato;
+    color: #FFFFFF;
+  }
+
+.list-item {
+    display: flex;
+    gap: 10px;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+    color: #FFFFFF; 
+}
+.svg {
+    position: relative;
+    top: -0.7rem;
+    color: #FFFFFF;
+}
+.usage {
+    margin-top: -0.8rem;
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    border-bottom: none;
+}
+.five {
+    font-weight: 700;
+}
+.need {
+    margin-left: 2rem;
+    font-family: Lato;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 1rem;
+    border-bottom: none;
+}
+.plan {
+    margin-left: 2rem;
+    font-family: Lato;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 0.8rem;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration-color: #B9F5FF; 
+}
+.twenty {
+    font-weight: 700;
+}
+.cite {
+    color: #FFFFFF;
+    font-family: Lato;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.ftp {
+    color: #FFFFFF;
+    border-bottom: none;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 200;
+    border-bottom: none;
+}
+.push {
+    font-weight: 500;
+}
+.Beard {
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    font-family: Lato;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+.bit {
+    position: relative;
+    bottom: -10px;
+    margin-top: 12px;
+}
+.kirk {
+    margin-top: 5px;
+    margin-left: 1rem;
+    font-family: Lato;
+    font-weight: 700; 
+    color: #FFFFFF;
+}
+footer {
+    color: grey;
+    font-size: 15px;
+    margin-top: 2rem;
+    text-align: center;
+}
+.service {
+    color:  #31708F;
+}
+
+
+
